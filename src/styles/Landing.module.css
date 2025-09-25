@@ -1,0 +1,52 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #F5FBFF, #EAF4FF);
+
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #22223b;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.button,
+.buttonSecondary {
+  padding: 0.75rem 2.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+}
+
+.button {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.button:hover {
+  background: #2563eb;
+}
+
+.buttonSecondary {
+  background: #fff;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+}
+
+.buttonSecondary:hover {
+  background: #3b82f6;
+  color: #fff;
+}
